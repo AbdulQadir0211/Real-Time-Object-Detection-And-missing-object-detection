@@ -16,7 +16,7 @@ This project implements a real-time object detection and monitoring system that 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/RealTime-Object-Monitoring.git
+    git clone https://github.com/AbdulQadir0211/Real-Time-Object-Detection-And-missing-object-detection.
     cd RealTime-Object-Monitoring
     ```
 
@@ -39,7 +39,7 @@ This project implements a real-time object detection and monitoring system that 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/RealTime-Object-Monitoring.git
+    git clone https://github.com/AbdulQadir0211/Real-Time-Object-Detection-And-missing-object-detection.
     cd RealTime-Object-Monitoring
     ```
 
@@ -60,7 +60,7 @@ This project implements a real-time object detection and monitoring system that 
 
 ## Report
 
-The detailed project report is available in the file [report_yourname_ML_Intern.docx](report_yourname_ML_Intern.docx).
+The detailed project report is available in the file [report_Abdul_Qadir_ML_Intern.docx](report_AbdulQadir_ML_Intern.docx).
 
 ## Sample Output
 
@@ -80,9 +80,9 @@ Here are some sample output frames from the video stream:
 
 ## Hardware Used
 
-- **CPU**: Intel i5 11th Gen
+- **CPU**: Intel i7 7th Gen
 - **GPU**: Integrated Intel UHD Graphics
-- **RAM**: 8GB
+- **RAM**: 12GB
 
 ## License
 
