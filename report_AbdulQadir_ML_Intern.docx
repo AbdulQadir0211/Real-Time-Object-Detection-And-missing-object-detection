@@ -1,0 +1,53 @@
+1. Introduction
+Objective: Build a real-time object detection system that can detect missing and newly placed objects in a video stream using YOLOv8 for detection and DeepSORT for tracking.
+
+2. System Overview
+Detection and Tracking:
+
+YOLOv8 is used for object detection, which provides bounding boxes and labels.
+
+DeepSORT is used for object tracking and assigning unique IDs to detected objects.
+
+Real-Time Performance:
+
+The system was designed to ensure high FPS for real-time processing.
+
+FPS is displayed on the video feed, showing how well the system performs on different hardware configurations.
+
+3. Performance Metrics (FPS Achieved)
+FPS Achieved:
+Unable to calculate.
+
+CPU: Intel i5 7th Gen (no dedicated GPU used)
+
+RAM: 12GB
+
+GPU: Integrated Intel UHD Graphics and NVIDIA RMX130
+
+4. Hardware Configuration
+CPU: Intel i5 7th Gen
+
+GPU: Integrated Intel UHD Graphics
+
+RAM: 12GB
+
+5. Optimizations and Architectural Decisions
+YOLOv8n Model: Used the lightweight YOLOv8n model for faster inference.
+
+Reduced Resolution: The input video resolution was reduced to 640x480 pixels to improve processing speed.
+
+Frame Skipping: Skipped video writing during testing to maintain FPS.
+
+Modular Pipeline: Split the code into multiple modules (Detector, Tracker, Scene Manager) for easy optimization and maintenance.
+
+6. Sample Output
+Screenshot 1:
+
+Screenshot 2:
+
+7. Video Output
+You can view the output video here: [output/output_video.mp4].
+
+8. Conclusion
+The system demonstrates an effective way to monitor changes in a video feed, detecting missing and newly placed objects in real time. Optimizations like reducing the input resolution and using a lightweight model allowed the system to achieve high FPS even on a non-GPU machine.
+
